@@ -6,9 +6,7 @@ public class ClickHandler_Lab2Green : MonoBehaviour {
 
 	public GameObject char1;
 	
-	public Sprite firstSprite;
-	public Sprite secondSprite;
-	public Sprite thirdSprite;
+	public Sprite mainSprite;
 	
 	private SpriteRenderer sRend;
 	
@@ -18,6 +16,6 @@ public class ClickHandler_Lab2Green : MonoBehaviour {
 	}
 	
 	void OnMouseDown(){
-		sRend.sprite = secondSprite;
+		sRend.sprite = mainSprite;
 	}
 }
